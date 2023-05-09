@@ -5,32 +5,27 @@
   metatags.description = "Description coming soon...";
   window.onscroll = function() {scrollFunction()};
 
-function scrollFunction() {
-  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-    document.querySelector('.social-bar').style.display = 'block';
-  } else {
-    document.querySelector('.social-bar').style.display = 'none';
-  }
-}
 
 </script>
+<link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 
-<nav>
-  <a href="#" class="logo"><img src="public/2.jpg" alt=""/></a>
-  <a href="#">Buy Bee</a>
-  <a href="#" class="active">Shop</a>
-  <a href="#">About</a>
-  <a href="#">Forum</a>
-  <a href="#">Contact</a>
-  <a href="#">Search</a>
-  <a href="#">Login</a>
-  <a href="#">Cart Shopping</a>
-</nav>
-<div class="social-bar">
-  <a href="#"><i class="fab fa-facebook-f"></i></a>
-  <a href="#"><i class="fab fa-instagram"></i></a>
-  <a href="#"><i class="fab fa-github"></i></a>
-</div>
+<header>
+    <a href="#" class="logo"><img src="public/2.jpg" alt=""/></a>
+    <ul class="navmenu">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Shop</a></li>
+        <li><a href="#">Products</a></li>
+        <li><a href="#">Review</a></li>
+        <li><a href="#">Contact</a></li>
+        <li><a href="#">Blogs</a></li>
+    </ul> 
+    <div class="nav-icon">
+        <a href="#"><i class="bx bx-search"></i></a>
+        <a href="#"><i class="bx bx-user"></i></a>
+        <a href="#"><i class="bx bx-cart"></i></a>
+        <div class="bx bx-menu" id="menu-icon"></div>
+    </div>
+</header>
 
 <section id="hero">
   <div class="hero container">
@@ -45,42 +40,67 @@ function scrollFunction() {
     To see an example app that shows off a lot of Routify's features, go to <a href="/example">/example</a>
 </p> -->
 <style>
-  nav {
-    position: fixed;
-    background-color: #333;
-    overflow: hidden;
-    height: 50px;
-    top: 0;
-    width: 100%;
-    z-index: 999;
+  *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-family: sans-serif;
+    list-style: none;
+    text-decoration: none;
+  }
+  .navmenu{
+    display: flex;
+
+  }
+  .navmenu a{
+    color: white;
+    font-size: 16px;
+    text-transform: capitalize;
+    padding: 10px 20px;
+    font-weight: 400;
+    transition: all .42s ease;
+  }
+  .navmenu a:hover{
+    color: red;
+
+  }
+  .nav-icon{
+    display: flex;
+    align-items: center;
+  }
+  .nav-icon i{
+    margin-right:20px;
+    color: white;
+    font-size:25px;
+    font-weight : 400;
+    transition: all .42s ease;
+  }
+  .nav-icon i:hover{
+    transform:(1.1);
+    color: red;
   }
   .logo img{
-    height: 30px;
-    width: 30px;
+    height: auto;
     margin-left: 30px;
+    max-width: 120px;
   }
-  .logo a{
-    justify-content: center;
+  #menu-icon{
+    font-size:35px;
+    color:white;
+    z-index:1001;
+    cursor: pointer;
   }
-  .active{
-    margin-left: 600px;
-  }
-  nav a {
-    float: left;
-    color: white;
-    text-align: center;
-    padding: 16px 18px;
-    text-decoration: none;
-    font-size: 18px;
-    font-weight: bold;
-  }
-
-  nav a.active {
-    background-color: #4caf50;
-  }
-  nav a:hover {
-    background-color: #ddd;
-    color: black;
+  header{
+    position: fixed;
+    width: 100%;
+    top: 0;
+    right: 0;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 10%;
   }
   .container{
     min-height: 100vh;
@@ -139,26 +159,4 @@ function scrollFunction() {
     color: white;
     background-color: crimson;
   }
-  .social-bar {
-  position: fixed;
-  top: 50%;
-  right: 0;
-  transform: translateY(-50%);
-  display: flex;
-  flex-direction: column;
-  z-index: 30;
-}
-
-.social-bar a {
-  color: white;
-  font-size: 20px;
-  margin-bottom: 10px;
-  text-decoration: none;
-  transition: all 0.2s ease-in-out;
-}
-
-.social-bar a:hover {
-  transform: scale(1.1);
-}
-
 </style>
