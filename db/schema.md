@@ -27,3 +27,5 @@ The `products` table contains information about each product. Each product has a
 ## Conclusion
 
 This schema provides a way to organize products into hierarchies of categories and sub-categories. The `main_categories`, `sub_categories`, and `side_categories` tables provide a way to define the categories, while the `products` table allows for the storage of product information and categorization.
+
+![schema](/db/schema.png)
