@@ -1,8 +1,8 @@
-['Sports & Outdoors ' 'Toys & Games ' 'Clothing, Shoes & Jewelry '
- 'Home & Kitchen ' 'Pet Supplies ' 'Arts, Crafts & Sewing ' 'Electronics '
- 'Patio, Lawn & Garden ' 'Tools & Home Improvement ' 'Baby Products '
- 'Office Products ' 'Grocery & Gourmet Food ' 'Video Games '
- 'Remote & App Controlled Vehicle Parts ' 'Health & Household '
- 'Industrial & Scientific ' 'Beauty & Personal Care ' 'Automotive '
- 'Remote & App Controlled Vehicles & Parts ' 'Musical Instruments '
- 'Hobbies ' 'Movies & TV ' 'Cell Phones & Accessories ']
+['Sports & Outdoors' 'Toys & Games' 'Clothing, Shoes & Jewelry'
+ 'Home & Kitchen' 'Pet Supplies' 'Arts, Crafts & Sewing' 'Electronics'
+ 'Patio, Lawn & Garden' 'Tools & Home Improvement' 'Baby Products'
+ 'Office Products' 'Grocery & Gourmet Food' 'Video Games'
+ 'Remote & App Controlled Vehicle Parts' 'Health & Household'
+ 'Industrial & Scientific' 'Beauty & Personal Care' 'Automotive'
+ 'Remote & App Controlled Vehicles & Parts' 'Musical Instruments'
+ 'Hobbies' 'Movies & TV' 'Cell Phones & Accessories']
