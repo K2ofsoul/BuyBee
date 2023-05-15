@@ -21,7 +21,7 @@ The dataset includes the following features:
 
 ## Data Format
 
-The data is provided in a CSV format with 6,309,583 rows and 8 columns.
+The data is provided in a CSV format with 6,082 rows and 8 columns.
 
 
 
