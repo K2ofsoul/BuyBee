@@ -1,39 +1,4 @@
-### Want full control over everything in this template?
-We've created a new project called [**stackmix**](https://github.com/roxiness/stackmix). It's an experimental CLI that let's you pick and mix all features in a Routify template! Get started with `npx stackmix`
+# E-commerce website
+E-commerce allows the buying and selling of goods or services over the internet. The predominant type of e-commerce is online retail or online shopping, which involves selling tangible products such as books, apparel, electronics, toys, groceries, and more on websites and mobile apps. Shoppers can browse items, add selections to a cart, proceed to checkout, and have the products delivered to them. Major online retailers include Amazon, eBay, Walmart, and others. 
 
-
-# Routify Starter
-
-Starter template for [Routify](https://github.com/roxiness/routify).
-
-# Get started
-
-To get started run:
-```sh
-mkdir routify-app
-cd routify-app
-npm init routify
-```
-
-
-# Scripts
-
-Run with `npm run <command>`, for example `npm run dev`
-
-| Command   | Description                                   |
-|-----------|-----------------------------------------------|
-| `dev`     | Development (port 5000)                       |
-| `build`   | Build your app for production!                |
-| `preview` | Preview the built version of your app locally |
-
-# Want a service worker?
-Checkout [vite-plugin-pwa](http://npmjs.org/vite-plugin-pwa)
-
-# Extra Configs
-We include a few extra configs to help make it easy to ship a Routify project:
-
-| Config Path        | Description                                                                                                                                                |
-|--------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| `netlify.toml`     | This is the [Netlify](https://www.netlify.com/) config, you need this when publishing to Netlify                                                           |
-| `vercel.json`      | This is the [Vercel](https://vercel.com/) config, you need this when publishing to Vercel                                                                  |
-| `public/.htaccess` | If you build your site to static using [spank](https://www.npmjs.com/package/spank) you will need this when putting your site on an apache based webserver |
+In light of the widespread adoption of ecommerce and the substantial market potential it presents, expertise in building e-commerce solutions would make a software developer a strong candidate for many companies. Therefore, we are interested in building an online retail store website, similar to Amazon, from the ground up and hopefully gaining a comprehensive understanding of the design and technology stack behind e-commerce systems. We named it: BuyBee.
